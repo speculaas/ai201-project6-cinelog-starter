@@ -273,7 +273,7 @@ After `git log --oneline` on `feature/watchlist` (≥4 conventional commits, no 
 
 **GitHub web editor:** open this file → click the line below → paste or drag-and-drop the PNG/JPG. GitHub uploads it and rewrites the `SRC` for you.
 
-![git log --oneline on feature/watchlist](PLACEHOLDER_DROP_SCREENSHOT_HERE)
+<img width="913" height="183" alt="image" src="https://github.com/user-attachments/assets/7bfd6a24-3e94-4ca2-bd7f-9492be9a68dc" />
 
 <!-- If the image doesn’t auto-replace PLACEHOLDER_…, after upload you should see something like:
 ![git log --oneline on feature/watchlist](https://github.com/user-attachments/assets/…)
