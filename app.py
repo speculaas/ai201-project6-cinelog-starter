@@ -36,4 +36,11 @@ def create_app(config=None):
 
 if __name__ == "__main__":
     app = create_app()
-    app.run(debug=True)
+    # Default stays 127.0.0.1 (matches project docs). Set HOST=0.0.0.0 to allow
+    # access from another machine/IP on your network, e.g.:
+    #   HOST=0.0.0.0 python app.py
+    app.run(
+        host=os.environ.get("HOST", "127.0.0.1"),
+        port=int(os.environ.get("PORT", "5000")),
+        debug=True,
+    )
