@@ -269,15 +269,21 @@ pytest tests/ -v
 
 ## Git Log Screenshot
 
-<!-- MANUAL (Milestone 4): After interactive rebase cleanup, run
-`git log --oneline`, screenshot, and paste here.
-Need ≥4 conventional commits and no merge commits. -->
+After `git log --oneline` on `feature/watchlist` (≥4 conventional commits, no merge commits):
+
+**GitHub web editor:** open this file → click the line below → paste or drag-and-drop the PNG/JPG. GitHub uploads it and rewrites the `SRC` for you.
+
+![git log --oneline on feature/watchlist](PLACEHOLDER_DROP_SCREENSHOT_HERE)
+
+<!-- If the image doesn’t auto-replace PLACEHOLDER_…, after upload you should see something like:
+![git log --oneline on feature/watchlist](https://github.com/user-attachments/assets/…)
+-->
 
 ## Remaining checklist (before Course Portal submit)
 
 1. Interactive rebase to clean remaining non-conventional history (especially
    `added watchlist model and endpoint…`) — see Milestone 4 in `projects.txt`.
-2. Paste `git log --oneline` screenshot above.
+2. Drop the `git log --oneline` screenshot into the placeholder above (GitHub web UI works well).
 3. `git push origin feature/watchlist --force-with-lease`
 4. Open PR on **your fork**: `feature/watchlist` → `main`; paste PR Description.
 5. Submit branch URL like
